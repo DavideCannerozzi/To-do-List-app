@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image:url('img/background-image.jpeg');
+    background-size:cover;
+    text-align: center;
+}
+h1{
+    font-family: 'Fredericka the Great';
+    font-size:50px;
+    font-stretch: normal;
+    color:#b56335;
+    margin-top:40px; 
+    font-weight: normal;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+    color:#707070;
+    margin-top:25px;
+}
+#input-list, 
+#btn-input{
+    vertical-align: middle;
+    margin-top:55px;
+}
+#input-list{
+    width:60%;
+    padding:15px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border:none;
+}
+#btn-input{
+    height:59px;
+    width:59px;
+    background:transparent;
+    cursor:pointer;
+    border:none;
+    background-image:url('img/btn-add.png');
+    background-size:cover;
+    border-radius:50%;
+}
+.div-container{
+    font-family: 'Open Sans', sans-serif;
+    text-align:left;
+    display:flex;
+    align-items:center;
+    font-size:18px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    border-radius:500px;
+    color:#707070;
+    padding:5px 5px 5px 30px;
+    width:50%;
+    margin:20px auto;
+    word-break: break-all;
+}
+.delete-button{
+    height:36px;
+    width:36px;
+    background:transparent;
+    cursor:pointer;
+    background-size:cover;
+    border-radius:50%;
+    border:none;
+    margin-left:auto;
+}
